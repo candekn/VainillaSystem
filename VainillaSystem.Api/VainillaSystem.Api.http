@@ -1,0 +1,6 @@
+@VainillaSystem.Api_HostAddress = http://localhost:5239
+
+GET {{VainillaSystem.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
