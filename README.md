@@ -1,5 +1,8 @@
 # VainillaSystem
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=candekn/vainillasystem)
+[![.NET](https://github.com/candekn/VainillaSystem/actions/workflows/dotnet.yml/badge.svg)](https://github.com/candekn/VainillaSystem/actions/workflows/dotnet.yml)
+
 **🇦🇷 Versión en Español** · **[🇬🇧 English Version](#vainillasystem--english-version)**
 
 | 🇦🇷 Español | 🇬🇧 English |
@@ -9,6 +12,7 @@
 | [Casos de uso implementados](#casos-de-uso-implementados) | [Implemented Use Cases](#implemented-use-cases) |
 | [Conceptos clave](#conceptos-clave) | [Key Concepts](#key-concepts) |
 | [Cómo ejecutar](#cómo-ejecutar) | [How to Run](#how-to-run) |
+| [GitHub Codespaces](#ejecutar-en-github-codespaces) | [GitHub Codespaces](#run-in-github-codespaces) |
 | [Tests unitarios](#tests-unitarios) | [Unit Tests](#unit-tests) |
 | [Tecnologías](#tecnologías) | [Technologies](#technologies) |
 
@@ -151,6 +155,22 @@ dotnet run --project VainillaSystem.Api --launch-profile http
 ```
 
 Swagger UI disponible en: `http://localhost:5239/swagger`
+
+### Ejecutar en GitHub Codespaces
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=candekn/vainillasystem)
+
+Con un clic podés abrir el proyecto en un entorno completamente configurado, sin instalar nada localmente:
+
+1. Hacé clic en el badge de arriba
+2. GitHub crea y lanza el Codespace automáticamente
+3. Una vez listo, ejecutá en la terminal integrada:
+
+```bash
+dotnet run --project VainillaSystem.Api --launch-profile http
+```
+
+Swagger UI estará disponible en el puerto que Codespaces habilite automáticamente.
 
 ### Ejecutar los tests
 
@@ -328,6 +348,22 @@ dotnet run --project VainillaSystem.Api --launch-profile http
 ```
 
 Swagger UI available at: `http://localhost:5239/swagger`
+
+### Run in GitHub Codespaces
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=candekn/vainillasystem)
+
+Open the project in a fully configured environment with a single click, no local setup required:
+
+1. Click the badge above
+2. GitHub automatically creates and launches the Codespace
+3. Once ready, run in the integrated terminal:
+
+```bash
+dotnet run --project VainillaSystem.Api --launch-profile http
+```
+
+Swagger UI will be available on the port automatically forwarded by Codespaces.
 
 ### Run the Tests
 

@@ -1,0 +1,11 @@
+{
+    "name": "VainillaSystem Dev Container",
+    "portsAttributes": {
+        "5239": {
+            "label": "VainillaSystem API",
+            "onAutoForward": "openBrowser",
+            "visibility": "public"
+        }
+    },
+    "postCreateCommand": "dotnet restore"
+}
