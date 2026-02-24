@@ -1,5 +1,10 @@
 {
     "name": "VainillaSystem Dev Container",
+    "features": {
+        "ghcr.io/devcontainers/features/dotnet:1": {
+            "version": "8.0"
+        }
+    },
     "portsAttributes": {
         "5239": {
             "label": "VainillaSystem API",
